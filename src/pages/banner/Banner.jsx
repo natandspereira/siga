@@ -2,15 +2,18 @@
 import imgBanner from '../../assets/img/banner/bannerMobile.svg';
 import * as Style from './Banner.style';
 import Button from '../../components/Button/Button';
+import { useTranslation } from 'react-i18next';
 
 export default function Banner() {
+    const { t } = useTranslation();
+
     return (
         <>
             <Style.DivBanner>
                 <div id="txtBanner">
-                    <p>Tenha o controle total das suas atividades em uma plataforma simples, moderna e eficiente.</p>
+                    <p>{t("banner.txt")}</p>
                      <Button 
-                        txt="Experimente o SIGA" 
+                        txt={t("banner.btn")} 
                         colorBackground={'#333'}
                         colorFont={'#fff'}
                         border={'2px solid white'}

@@ -1,0 +1,48 @@
+{
+  "header": {
+    "login": "Access your account",
+    "logout": "Log out"
+  },
+  "banner": {
+    "txt": "Have full control of your activities in a simple, modern, and efficient platform.",
+    "btn": "Try SIGA"
+  },
+  "escolher": {
+    "h1": "Why choose SIGA?",
+    "sectionSeguranca": {
+      "h4": "Security",
+      "p": "Controlled access and protected data."
+    },
+    "sectionCentralizacao": {
+      "h4": "Centralization",
+      "p": "All your activities in one place."
+    },
+    "sectionProdutividade": {
+      "h4": "Productivity",
+      "p": "Track deadlines, status, and priorities in real time."
+    },
+    "sectionColaboracao": {
+      "h4": "Collaboration",
+      "p": "Delegate tasks and engage your team with clarity."
+    },
+    "sectionRelatorios": {
+      "h4": "Reports",
+      "p": "View indicators and improve decision-making."
+    }
+  },
+  "atividade": {
+    "h1": "Manage your activities efficiently",
+    "p1": "Task registration and tracking.",
+    "p2": "Intuitive dashboard with an overview of progress.",
+    "p3": "Team notifications and access permissions.",
+    "p4": "Detailed performance and productivity reports."
+  },
+  "gestao": {
+    "p1": "With SIGA, your management becomes simpler, faster, and more efficient.",
+    "p2": "Don’t waste time with spreadsheets and manual processes — take your organization to the next level.",
+    "btn": "Start now with SIGA"
+  },
+  "footer": {
+    "p": "SIGA. All rights reserved."
+  }
+}

@@ -8,7 +8,7 @@ export const DivHeader = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
     & img{
         width: 110px;
         margin: 0 5px;
@@ -18,6 +18,7 @@ export const DivHeader = styled.div`
         font-size: 30px;
         margin: 0 5px;
         color: var(--cor1);
+        cursor: pointer;
     }
 `
 export const Menu = styled.nav`
@@ -28,10 +29,11 @@ export const Menu = styled.nav`
     background: #fff;
     padding: 10px;
     z-index: 1000;
-    width: 145px;
+    width: 170px;
     height: 100px;
     border-radius: 20px 0 0 20px;
-
+    cursor: pointer;
+    
     & ul{
         list-style-type: none;
         display: flex;
