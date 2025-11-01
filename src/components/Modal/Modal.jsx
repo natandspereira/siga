@@ -1,0 +1,54 @@
+import * as Style from './Modal.style';
+
+export default function Modal({
+    isOpen,
+    onClose,
+    widthOverlay,
+    heightOverlay,
+    zIndexOverlay,
+    displayOverlay,
+    alignItemsOverlay,
+    justifyContentOverlay,
+    positionOverlay,
+    topOverlay,
+    rightOverlay,
+    leftOverlay,
+    bottomOverlay,
+    widthBody,
+    heightBody,
+    borderBody,
+    borderRadiusBody,
+    gapBody,
+    flexDirectionBody,
+    children
+}){
+    if(!isOpen) return null;
+    return(
+        <Style.ModalOverlay 
+                onClick={onClose}
+                $widthOverlay={widthOverlay}
+                $heightOverlay={heightOverlay}
+                $zIndex={zIndexOverlay}
+                $display={displayOverlay}
+                $alignItems={alignItemsOverlay}
+                $justifyContent={justifyContentOverlay}
+                $positionOverlay={positionOverlay}
+                $topOverlay={topOverlay}
+                $rightOverlay={rightOverlay}
+                $leftOverlay={leftOverlay}
+                $bottomOverlay={bottomOverlay}
+            >
+            <Style.ModalBody
+                onClick={(e)=>e.stopPropagation()}
+                $widthBody={widthBody}
+                $heightBody={heightBody}
+                $borderBody={borderBody}
+                $borderRadiusBody={borderRadiusBody}
+                $flexDirectionBody={flexDirectionBody}
+                $gapBody={gapBody}
+            >
+                {children}
+            </Style.ModalBody>
+        </Style.ModalOverlay>
+    )
+}

@@ -1,58 +1,48 @@
 {
-  "header": {
-    "login": "Acesse sua conta",
-    "logout": "Sair"
-  },
-
-  "banner": {
-    "txt": "Tenha o controle total das suas atividades em uma plataforma simples, moderna e eficiente.",
-    "btn": "Experimente o SIGA"
-  },
-
-  "escolher": {
-    "h1": "Por que escolher o SIGA?",
-
-    "sectionSeguranca": {
-      "h4": "Segurança",
-      "p": "Acesso controlado e dados protegidos."
+    "header":{
+        "login": "Acesse sua conta",
+        "logout": "Sair"
     },
-
-    "sectionCentralizacao": {
-      "h4": "Centralização",
-      "p": "Todas as suas atividades em um só lugar."
+    "banner":{
+        "p": "Tenha o controle total das suas atividades em uma plataforma simples, moderna e eficiente.",
+        "btn": "Experimente o SIGA"
     },
-
-    "sectionProdutividade": {
-      "h4": "Produtividade",
-      "p": "Acompanhe prazos, status e prioridades em tempo real."
+    "escolher":{
+        "h2": "Por que escolher o SIGA?",
+        "seguranca":{
+            "h3":"Segurança",
+            "p": "Acesso controlado e dados protegidos."
+        },
+        "centralizacao":{
+            "h3":"Centralização",
+            "p": "Todas as suas atividades em um só lugar."
+        },
+        "produtividade":{
+            "h3":"Produtividade",
+            "p": "Acompanhe prazos, status e prioridades em tempo real."
+        },
+        "colaboracao":{
+            "h3":"Colaboração",
+            "p": "Delegue tarefas e envolva sua equipe com clareza."
+        },
+        "relatorio":{
+            "h3":"Relatório",
+            "p": "Visualize indicadores e melhore a tomada de decisão."
+        }
     },
-
-    "sectionColaboracao": {
-      "h4": "Colaboração",
-      "p": "Delegue tarefas e envolva sua equipe com clareza."
+    "atividades":{
+        "h2":"Tudo o que você precisa para gerenciar atividades com eficiência.",
+        "p1":"Cadastro e acompanhamento de tarefas.",
+        "p2":"Dashboard intuitivo com visão geral do progresso.",
+        "p3":"Notificações de equipes e permissões de acesso.",
+        "p4":"Relatórios detalhados de desempenho e produtividade."
     },
-
-    "sectionRelatorios": {
-      "h4": "Relatórios",
-      "p": "Visualize indicadores e melhore a tomada de decisão."
+    "gestao":{
+        "h2":"Com o SIGA, sua gestão fica mais simples, ágil e eficiente.",
+        "p":"Não perca tempo com planilhas e processo manuais, leve sua organização para o próximo nível.",
+        "btn": "Comece agora com o SIGA"
+    },
+    "footer":{
+        "p":"SIGA. Todos os direitos reservados."
     }
-  },
-
-  "gestao": {
-    "p1": "Com o SIGA, sua gestão fica mais simples, ágil e eficiente.",
-    "p2": "Não perca tempo com planilhas e processos manuais, leve sua organização para o próximo nível.",
-    "btn": "Comece agora com o SIGA"
-  },
-
-  "atividade":{
-    "h1":"Gerencie suas atividades com eficiência",
-    "p1":"Cadastro e acompanhamento de tarefas.",
-    "p2":"Dashboard intuitivo com visão geral do progresso.",
-    "p3":"Notificações de equipes e permissões de acesso.",
-    "p4":"Relatórios detalhados de desempenho e produtividade."
-  },
-
-  "footer": {
-    "p": "SIGA. Todos os direitos reservados."
-  }
 }

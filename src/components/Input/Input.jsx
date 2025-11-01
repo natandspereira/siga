@@ -1,9 +1,9 @@
-import * as Style from './Div.style';
+import * as Style from './Input.style';
 
 
 
-export default function Div({
-    width,
+export default function Input({
+     width,
     height,
     padding,
     border,
@@ -16,22 +16,24 @@ export default function Div({
     color,
     fontSize,
     fontWeight,
+    lineHeight,
     textAlign,
     display,
     alignItems,
     justifyContent,
     outline,
-    transition,
-    cursor,
     textAlignPlaceholder,
     fontSizePlaceholder,
     colorPlaceholder,
+    txtPlaceholder,
+    transition,
     borderColorHover,
     colorHover,
-    children
-}) {
-    return (
-        <Style.Div
+    cursor,
+    type
+}){
+    return(
+        <Style.Input
             $width={width}
             $height={height}
             $padding={padding}
@@ -45,20 +47,23 @@ export default function Div({
             $color={color}
             $fontSize={fontSize}
             $fontWeight={fontWeight}
+            $lineHeight={lineHeight}
             $textAlign={textAlign}
             $display={display}
             $alignItems={alignItems}
             $justifyContent={justifyContent}
             $outline={outline}
-            $transition={transition}
-            $cursor={cursor}
             $textAlignPlaceholder={textAlignPlaceholder}
             $fontSizePlaceholder={fontSizePlaceholder}
             $colorPlaceholder={colorPlaceholder}
+            placeholder={txtPlaceholder}
+            $transition={transition}
             $borderColorHover={borderColorHover}
             $colorHover={colorHover}
+            $cursor={cursor}
+            type={type}
         >
-            {children}
-        </Style.Div>
+             
+        </Style.Input>
     )
 }

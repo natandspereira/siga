@@ -1,31 +1,58 @@
-import { Children } from 'react';
 import * as Style from './Section.style';
 
 
 
 export default function Section({
+    width,
+    height,
+    padding,
+    border,
+    borderRadius,
+    borderColor,
+    backgroundColor,
+    boxShadow,
+    textShadow,
+    textTransform,
+    color,
+    fontSize,
+    fontWeight,
+    lineHeight,
+    textAlign,
     display,
     alignItems,
     justifyContent,
     flexDirection,
-    width,
-    height,
-    gap,
-    backgroundColor,
-    padding,
+    margin,
+    onClick,
+    onChange,
+    value,
     children
-}) {
-    return (
+}){
+    return(
         <Style.Section
-            display={display}
-            alignItems={alignItems}
-            justifyContent={justifyContent}
-            flexDirection={flexDirection}
-            width={width}
-            height={height}
-            gap={gap}
-            backgroundColor={backgroundColor}
-            padding={padding}
+            $width={width}
+            $height={height}
+            $padding={padding}
+            $border={border}
+            $borderRadius={borderRadius}
+            $borderColor={borderColor}
+            $backgroundColor={backgroundColor}
+            $boxShadow={boxShadow}
+            $textShadow={textShadow}
+            $textTransform={textTransform}
+            $color={color}
+            $fontSize={fontSize}
+            $fontWeight={fontWeight}
+            $lineHeight={lineHeight}
+            $textAlign={textAlign}
+            $display={display}
+            $alignItems={alignItems}
+            $justifyContent={justifyContent}
+            $flexDirection={flexDirection}
+            $margin={margin}
+            onClick={onClick}
+            onChange={onChange}
+            value={value}
         >
             {children}
         </Style.Section>
