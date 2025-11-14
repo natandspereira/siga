@@ -1,165 +1,108 @@
-SIGA — Sistema Integrado de Gestão e Atividades
+# SIGA --- Sistema Integrado de Gestão e Atividades
 
-O SIGA é uma aplicação web moderna, modular e totalmente responsiva, desenvolvida com React + Vite.
-O sistema foi projetado para servir como base para plataformas administrativas, dashboards corporativos, sistemas de atividades e ambientes de interação entre usuários.
+O **SIGA** é uma aplicação web moderna, modular e totalmente responsiva,
+desenvolvida com **React + Vite**.\
+O sistema foi projetado para servir como base para plataformas
+administrativas, dashboards corporativos, sistemas de atividades e
+ambientes de interação entre usuários.
 
-Com uma arquitetura organizada, componentes reutilizáveis e integração com API interna via Node.js/Express, o SIGA entrega alta performance, escalabilidade e uma experiência fluida tanto em Desktop quanto em Mobile.
+Com uma arquitetura organizada, componentes reutilizáveis e integração
+com API interna via Node.js/Express, o SIGA entrega alta performance,
+escalabilidade e uma experiência fluida tanto em **Desktop** quanto em
+**Mobile**.
 
-📚 Índice
+## 📚 Índice
 
-Sobre o Projeto
+-   [Sobre o Projeto](#sobre-o-projeto)
+-   [Tecnologias Utilizadas](#tecnologias-utilizadas)
+-   [Funcionalidades](#funcionalidades)
+-   [Arquitetura do Projeto](#arquitetura-do-projeto)
+-   [Estrutura de Pastas](#estrutura-de-pastas)
+-   [Instalação e Uso](#instalação-e-uso)
+-   [API / Backend Interno](#api--backend-interno)
+-   [Padronização de Código](#padronização-de-código)
+-   [Contribuição](#contribuição)
+-   [Licença](#licença)
 
-Tecnologias Utilizadas
+## 📘 Sobre o Projeto
 
-Funcionalidades
+O SIGA foi projetado como um sistema altamente modular, composto por
+diversas seções funcionais como **Atividades**, **Gestão**,
+**Controle**, **Relacionamento** e telas de seleção (SIGA
+Desktop/Mobile).
 
-Arquitetura do Projeto
+A aplicação utiliza componentes isolados, estilização modular
+(`*.style.jsx`) e uma estrutura organizada que facilita manutenção e
+evolução.
 
-Estrutura de Pastas
+O projeto também inclui um **servidor Node.js interno**, permitindo
+autenticação, integrações, rotas personalizadas e expansão futura com
+banco de dados.
 
-Instalação e Uso
+## ⚙️ Tecnologias Utilizadas
 
-API / Backend Interno
+  Categoria                 Tecnologias
+  ------------------------- -----------------------------------------
+  **Frontend**              React 19, Vite 7, JSX, Hooks
+  **Backend interno**       Node.js, Express, CORS, Dotenv, Bcrypt
+  **Comunicação**           Axios
+  **Qualidade de código**   ESLint
+  **Outros**                Vite plugin React, Babel React Compiler
 
-Padronização de Código
+## 🧩 Funcionalidades
 
-Contribuição
+-   Interface 100% responsiva\
+-   Layouts separados para **Desktop** e **Mobile**\
+-   Módulos organizados por contexto\
+-   Componentes reutilizáveis\
+-   Consumo de API via Axios\
+-   Mini backend Express integrado\
+-   Estrutura escalável\
+-   Suporte a imagens, ícones e bandeiras
 
-Licença
-
-📘 Sobre o Projeto
-
-O SIGA foi projetado como um sistema altamente modular, composto por diversas seções funcionais como Atividades, Gestão, Controle, Relacionamento e telas de seleção (SIGA Desktop/Mobile).
-
-A aplicação utiliza componentes isolados, estilização modular (*.style.jsx) e uma estrutura organizada que facilita manutenção e evolução.
-
-O projeto também inclui um servidor Node.js interno, permitindo autenticação, integrações, rotas personalizadas e expansão futura com banco de dados.
-
-⚙️ Tecnologias Utilizadas
-Categoria	Tecnologias
-Frontend	React 19, Vite 7, JSX, Hooks
-Backend interno	Node.js, Express, CORS, Dotenv, Bcrypt
-Comunicação	Axios
-Qualidade de código	ESLint
-Outros	Vite plugin React, Babel React Compiler
-🧩 Funcionalidades
-
-✔️ Interface 100% responsiva
-
-✔️ Layouts separados para Desktop e Mobile
-
-✔️ Módulos organizados por contexto (Gestão, Atividades, Controle…)
-
-✔️ Componentes reutilizáveis e estilizados individualmente
-
-✔️ Consumo de API via Axios
-
-✔️ Mini backend Express integrado
-
-✔️ Estrutura escalável e fácil de manter
-
-✔️ Suporte a imagens, ícones e bandeiras (idiomas)
-
-🏛️ Arquitetura do Projeto
+## 🏛️ Arquitetura do Projeto
 
 A organização do SIGA segue padrões modernos:
 
-Component-based architecture
+-   **Component-based architecture**\
+-   Separação por **páginas** e **versões Desktop/Mobile**
+-   Estilos modulares\
+-   Backend isolado em `/src/api/server.js`\
+-   Estrutura clara para expansão
 
-Separação por páginas e versões Desktop/Mobile
+## 📂 Estrutura de Pastas
 
-Estilos modulares para cada componente ou página
+    src/
+      api/
+      assets/
+      components/
+      pages/
+      styles/
+      App.jsx
+      main.jsx
 
-Backend isolado em /src/api/server.js
+## 💻 Instalação e Uso
 
-Assets organizados por categorias (imagens, ícones, bandeiras)
+### Clonar o repositório
 
-Estrutura clara para expansão do sistema
+    git clone https://github.com/seu-usuario/siga.git
 
-Essa arquitetura torna o projeto ideal para evoluir para um sistema administrativo, CRM, ERP ou dashboard corporativo.
+### Acessar a pasta
 
-📂 Estrutura de Pastas
-src/
-  api/                 # Mini backend (Express)
-  assets/              # Ícones, imagens e bandeiras
-  components/          # Componentes reutilizáveis
-  pages/               # Páginas Desktop e Mobile
-    atividades/
-    controle/
-    escolherSiga/
-    gestao/
-    relacionamento/
-  styles/              # Estilos modularizados (quando aplicável)
-  App.jsx
-  main.jsx
+    cd siga
 
-index.html             # HTML principal da aplicação
-vite.config.js         # Configuração do Vite
-package.json           # Dependências e scripts
+### Instalar dependências
 
-💻 Instalação e Uso
-1️⃣ Clonar o repositório
-git clone https://github.com/seu-usuario/siga.git
+    npm install
 
-2️⃣ Acessar a pasta
-cd siga
+### Rodar o projeto
 
-3️⃣ Instalar dependências
-npm install
+    npm run dev
 
-4️⃣ Rodar o projeto em modo desenvolvimento
-npm run dev
+## 🔌 API / Backend Interno
+
+Para rodar o backend:
+
+    node src/api/server.js
 
 
-O Vite iniciará o servidor e exibirá a URL local.
-
-🔌 API / Backend Interno
-
-O projeto inclui um servidor básico em Express, localizado em:
-
-src/api/server.js
-
-
-Para rodá-lo manualmente:
-
-node src/api/server.js
-
-
-O backend está preparado para:
-
-Receber rotas personalizadas
-
-Usar variáveis de ambiente
-
-Implementar autenticação com bcrypt
-
-Integrar banco de dados opcionalmente
-
-🧼 Padronização de Código
-
-O projeto utiliza ESLint com regras atualizadas para React.
-
-Para rodar a verificação:
-
-npm run lint
-
-🤝 Contribuição
-
-Contribuições são bem-vindas!
-Siga os passos abaixo:
-
-Faça um fork do projeto
-
-Crie uma nova branch
-
-git checkout -b minha-feature
-
-
-Commit suas alterações
-
-Envie um Pull Request
-
-📄 Licença
-
-Este projeto está sob a licença MIT.
-Você é livre para usar, modificar e distribuir.
