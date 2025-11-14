@@ -21,8 +21,6 @@ escalabilidade e uma experiência fluida tanto em **Desktop** quanto em
 -   [Instalação e Uso](#instalação-e-uso)
 -   [API / Backend Interno](#api--backend-interno)
 -   [Padronização de Código](#padronização-de-código)
--   [Contribuição](#contribuição)
--   [Licença](#licença)
 
 ## 📘 Sobre o Projeto
 
