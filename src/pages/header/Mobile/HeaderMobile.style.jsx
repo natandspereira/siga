@@ -49,3 +49,13 @@ export const MenuBody = styled.div`
         gap: 2px;
     }
 `
+export const DivbtnModal = styled.div`
+    display: flex;
+    justify-content: end;
+    transform: translateY(-100%);
+    width: 100%;
+
+    & #btnCloseModal{
+        cursor: pointer;
+    }
+`

@@ -42,3 +42,14 @@ export const DivSelect = styled.div`
     width: 70px;
     cursor: pointer;
 `
+
+export const DivBtnModal = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-80%);
+
+    & #btnCloseModal{
+        cursor: pointer;
+    }
+`

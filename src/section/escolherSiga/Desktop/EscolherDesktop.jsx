@@ -21,7 +21,9 @@ export default function EscolherDesktop() {
                     backgroundColor={'#333'}
                     width={'170px'}
                     height={'120px'}
-                    padding={'10px'}
+                    padding={'20px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconSeg} alt="Segurança" />
                     <h3>{t('escolher.seguranca.h3')}</h3>
@@ -31,7 +33,9 @@ export default function EscolherDesktop() {
                     backgroundColor={'#333'}
                     width={'170px'}
                     height={'120px'}
-                    padding={'10px'}
+                    padding={'20px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconCentr} alt="Centralização" />
                     <h3>{t('escolher.centralizacao.h3')}</h3>
@@ -41,7 +45,9 @@ export default function EscolherDesktop() {
                     backgroundColor={'#333'}
                     width={'170px'}
                     height={'120px'}
-                    padding={'10px'}
+                    padding={'20px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconCentr} alt="Produtividade" />
                     <h3>{t('escolher.produtividade.h3')}</h3>
@@ -51,7 +57,9 @@ export default function EscolherDesktop() {
                     backgroundColor={'#333'}
                     width={'170px'}
                     height={'120px'}
-                    padding={'10px'}
+                    padding={'20px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconColab} alt="Colaboração" />
                     <h3>{t('escolher.colaboracao.h3')}</h3>
@@ -61,7 +69,9 @@ export default function EscolherDesktop() {
                     backgroundColor={'#333'}
                     width={'170px'}
                     height={'120px'}
-                    padding={'10px'}
+                    padding={'20px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconRelat} alt="Relatório" />
                     <h3>{t('escolher.relatorio.h3')}</h3>

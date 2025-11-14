@@ -16,10 +16,10 @@ export const Button = styled.button`
     color: ${({$color}) => $color || 'black'};
     font-size: ${({$fontSize}) => $fontSize || '.8rem'};
     font-weight: ${({$fontWeight}) => $fontWeight || '100'};
-    transition: ${({$transition}) => $transition || 'all .8s ease'};
+    transition: ${({$transition}) => $transition || 'all .8s ease-out'};
     cursor: ${({$cursor}) => $cursor || 'pointer'};
-    margin: ${({$margin}) => $margin || 'auto'};
-    
+    margin: ${({$margin}) => $margin || '5px 0'};
+
      &::placeholder{
         text-align: ${({$textAlignPlaceholder}) => $textAlignPlaceholder};
         font-size: ${($fontSizePlaceholder) => $fontSizePlaceholder};

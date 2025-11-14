@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ModalOverlay = styled.div`
-  width: ${({ $widthOverlay }) => $widthOverlay || '100%'};
+  width: ${({ $widthOverlay }) => $widthOverlay || '100vw'};
   height: ${({ $heightOverlay }) => $heightOverlay || '100vh'};
   background-color: ${({ $backgroundColorOverlay }) => $backgroundColorOverlay || 'rgba(0, 0, 0, 0.1)'};
   z-index: ${({ $zIndexOverlay }) => $zIndexOverlay || 1000};
@@ -17,13 +17,15 @@ export const ModalOverlay = styled.div`
 
 
 export const ModalBody = styled.div`
-    width: ${({$widthBody}) => $widthBody || '0'};
-    height: ${({$heightBody}) => $heightBody || '0'};
+    width: ${({$widthBody}) => $widthBody || 'auto'};
+    height: ${({$heightBody}) => $heightBody || 'auto'};
     border: ${({$borderBody}) => $borderBody || 'none'};
-    border-radius: ${({$borderRadiusBody}) => $borderRadiusBody || '0'};
+    border-radius: ${({$borderRadiusBody}) => $borderRadiusBody || '10px'};
     display: ${({$displayBody}) => $displayBody || 'flex'};
     align-items: ${({$alignItemsBody}) => $alignItemsBody || 'center'};
     justify-content: ${({$justifyContentBody}) => $justifyContentBody || 'center'};
     gap: ${({$gapBody}) => $gapBody || '0'};
     flex-direction: ${({$flexDirectionBody}) => $flexDirectionBody || 'flex'};
+    background-color: ${({$backgroundColorModalBody}) => $backgroundColorModalBody || '#fff'};
+    padding: ${($paddingModalBody)=>$paddingModalBody || 'auto'};
 `

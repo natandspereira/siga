@@ -10,7 +10,7 @@ import iconRelat from '../../../assets/img/Icones/iconRelat.svg';
 import iconSeg from '../../../assets/img/Icones/iconSeg.svg';
 
 export default function Escolher() {
-    const {t} = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <Style.Container>
@@ -20,6 +20,9 @@ export default function Escolher() {
                     backgroundColor={'#333'}
                     width={'320px'}
                     height={'110px'}
+                    padding={'8px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconSeg} alt="Segurança" />
                     <h3>{t('escolher.seguranca.h3')}</h3>
@@ -29,6 +32,9 @@ export default function Escolher() {
                     backgroundColor={'#333'}
                     width={'320px'}
                     height={'110px'}
+                    padding={'8px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconCentr} alt="Centralização" />
                     <h3>{t('escolher.centralizacao.h3')}</h3>
@@ -38,8 +44,11 @@ export default function Escolher() {
                     backgroundColor={'#333'}
                     width={'320px'}
                     height={'110px'}
+                    padding={'8px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
-                    <img src={iconCentr} alt="Produtividade" />
+                    <img src={iconProd} alt="Produtividade" />
                     <h3>{t('escolher.produtividade.h3')}</h3>
                     <p>{t('escolher.produtividade.p')}</p>
                 </Div>
@@ -47,6 +56,9 @@ export default function Escolher() {
                     backgroundColor={'#333'}
                     width={'320px'}
                     height={'110px'}
+                    padding={'8px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconColab} alt="Colaboração" />
                     <h3>{t('escolher.colaboracao.h3')}</h3>
@@ -56,6 +68,9 @@ export default function Escolher() {
                     backgroundColor={'#333'}
                     width={'320px'}
                     height={'110px'}
+                    padding={'8px 0'}
+                    flexDirection={'column'}
+                    color={'#fff'}
                 >
                     <img src={iconRelat} alt="Relatório" />
                     <h3>{t('escolher.relatorio.h3')}</h3>

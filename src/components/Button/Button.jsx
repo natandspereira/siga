@@ -23,6 +23,8 @@ export default function Button({
     borderColorHover,
     colorHover,
     margin,
+    type,
+    onClick,
     txt
 }){
     return(
@@ -47,6 +49,8 @@ export default function Button({
             $borderColorHover={borderColorHover}
             $colorHover={colorHover}
             $margin={margin}
+            type={type}
+            onClick={onClick}
         >
             {txt}
         </Style.Button>

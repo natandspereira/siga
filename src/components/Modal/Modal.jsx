@@ -20,6 +20,8 @@ export default function Modal({
     borderRadiusBody,
     gapBody,
     flexDirectionBody,
+    backgroundColorModalBody,
+    paddingModalBody,
     children
 }){
     if(!isOpen) return null;
@@ -46,6 +48,8 @@ export default function Modal({
                 $borderRadiusBody={borderRadiusBody}
                 $flexDirectionBody={flexDirectionBody}
                 $gapBody={gapBody}
+                $backgroundColorModalBody={backgroundColorModalBody}
+                $paddingModalBody={paddingModalBody}
             >
                 {children}
             </Style.ModalBody>

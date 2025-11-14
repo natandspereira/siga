@@ -14,22 +14,19 @@ export const Div = styled.div`
     text-shadow: ${({$textShadow}) => $textShadow || 'rgba(0,0,0,0.1) 2px 2px 4px'};
     text-transform: ${({$textTransform}) => $textTransform || '.8s'};
     text-align: ${({$textAlign}) => $textAlign || 'center'};
-    color: ${({$color}) => $color || '#fff'};
+    color: ${({$color}) => $color || '#000'};
     font-size: ${({$fontSize}) => $fontSize || '.8rem'};
-    font-weight: ${({$fontWeight}) => $fontWeight || '100'};
-    
-    display: ${({$display}) => $display || 'center'};
+    font-weight: ${({$fontWeight}) => $fontWeight || '500'};
+    display: ${({$display}) => $display || 'flex'};
     align-items: ${({$alignItems}) => $alignItems || 'center'};
     justify-content: ${({$justifyContent}) => $justifyContent || 'center'};
     transition: ${({$transition}) => $transition || 'all .8s ease'};
     cursor: ${({$cursor}) => $cursor || 'pointer'};
+    gap: ${({$gap}) => $gap || '2px'};
+    flex-direction: ${({$flexDirection}) => $flexDirection || 'row'};
+    margin: ${({$margin}) => $margin || '0'};
+    grid-template-columns: ${({$gridTemplateColumns}) => $gridTemplateColumns || 'auto'};
     
-    &::placeholder{
-        text-align: ${({$textAlignPlaceholder}) => $textAlignPlaceholder || 'center'};
-        font-size: ${($fontSizePlaceholder) => $fontSizePlaceholder || '.8rem'};
-        color: ${({$colorPlaceholder}) => $colorPlaceholder || '#000'};
-    }
-
     &:hover{
         border-color: ${({$borderColorHover})=> $borderColorHover};
         color: ${({$colorHover}) => $colorHover};

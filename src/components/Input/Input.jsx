@@ -3,7 +3,7 @@ import * as Style from './Input.style';
 
 
 export default function Input({
-     width,
+    width,
     height,
     padding,
     border,
@@ -30,9 +30,15 @@ export default function Input({
     borderColorHover,
     colorHover,
     cursor,
+    value,
+    name,
+    id,
+    onclick,
+    onChange,
+    margin,
     type
-}){
-    return(
+}) {
+    return (
         <Style.Input
             $width={width}
             $height={height}
@@ -62,8 +68,14 @@ export default function Input({
             $colorHover={colorHover}
             $cursor={cursor}
             type={type}
+            value={value ?? ''}
+            name={name}
+            id={id}
+            onclick={onclick}
+            onChange={onChange}
+            $margin={margin}
         >
-             
+
         </Style.Input>
     )
 }

@@ -28,6 +28,10 @@ export default function Div({
     colorPlaceholder,
     borderColorHover,
     colorHover,
+    gap,
+    flexDirection,
+    margin,
+    gridTemplateColumns,
     children
 }) {
     return (
@@ -57,6 +61,10 @@ export default function Div({
             $colorPlaceholder={colorPlaceholder}
             $borderColorHover={borderColorHover}
             $colorHover={colorHover}
+            $gap={gap}
+            $flexDirection={flexDirection}
+            $margin={margin}
+            $gridTemplateColumns={gridTemplateColumns}
         >
             {children}
         </Style.Div>
